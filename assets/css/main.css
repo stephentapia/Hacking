@@ -4687,3 +4687,11 @@ input, select, textarea {
 		}
 
 	}
+
+	#logo_santotomas
+	{
+		width: 15%;
+		border-radius: 45px;
+		float: center;
+	}
+
