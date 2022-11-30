@@ -18,11 +18,12 @@ include 'fecha.php';
 
 				<!-- Intro -->
 					<div id="intro">
-						<p><i>"Mientras distraigas tu mente de sus sueños, &eacute;sta no lo reconocer&aacute; como lo que son; siempre te dejar&aacute;s enga&ntilde;r por la aparencia de las cosas, porque no habr&aacute;s captado su naturaleza, si so&ntilde;ar un poco es peligroso, la cura para ello no es so&ntilde;ar menos, sino so&ntilde;ar m&aacute;s, so&ntilde;ar todo el tiempo"</i></p>
+						<p><i>"Mientras distraigas tu mente de sus sueños, &eacute;sta no lo reconocer&aacute; como lo que son; siempre te dejar&aacute;s enga&ntilde;ar por la aparencia de las cosas, porque no habr&aacute;s captado su naturaleza, si so&ntilde;ar un poco es peligroso, la cura para ello no es so&ntilde;ar menos, sino so&ntilde;ar m&aacute;s, so&ntilde;ar todo el tiempo"</i></p>
 						<!--<p>Ningun &aacute;rbol puede llegar al cielo a menos que sus raices lleguen al infierno.</p>-->
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
+							</ul>
+							<a href="https://www.santotomas.cl/"><img id="logo_santotomas" src="images/santotomas.png" alt="santotomas"></a>
 					</div>
 
 				<!-- Header -->
@@ -33,15 +34,17 @@ include 'fecha.php';
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="Fases/generic.html">fase 1</a></li>
-							<li><a href="elements.html">Fase 2</a></li>
-							<li><a href="generic.html">Fase 3</a></li>
-							<li><a href="elements.html">Fase 4</a></li>
-							<li><a href="elements.html">Fase 5</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
+							<li><a href="Fases/fase1.html">Fase 1</a></li>
+							<li><a href="Fases/fase2.html">Fase 2</a></li>
+							<li><a href="Fases/fase3.html">Fase 3</a></li>
+							<li><a href="Fases/fase4.html">Fase 4</a></li>
+							<li><a href="Fases/fase5.html">Fase 5</a></li>
+								
 						</ul>
+						
 					</nav>
-
+					
 				<!-- Main -->
 					<div id="main">
 
@@ -51,14 +54,13 @@ include 'fecha.php';
 									<span class="date"><?php
 										echo obtenerFechaEnLetra();
 										?></span>
-									<h2>And this is a</h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h2>LAS FASES DEL ETHICAL HACKING</h2>
+									<p>Cuando hablamos de las fases nos referimos a la acción de efectuar pruebas de intrusión controladas sobre un sistema informático, es decir, actuamos del punto de vista de un cracker, para tratar de encontrar vulnerabilidades, pero siempre en un ambiente supervisado, en el que no se ponga en riesgo la operatividad de los servicios informáticos de la organización.
+									</p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="Fases/fase1.html" class="image main"><img src="images/todas_las_fases.png" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="Fases/fase1.html" class="button large">Mas Información</a></li>
 								</ul>
 							</article>
 
@@ -66,80 +68,59 @@ include 'fecha.php';
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
+										<span class="date">Noviembre 29, 2022</span>
+										<h2><a href="#">Javier Ignacio Gómez Ramírez<br /></a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/avatar_javier.png" alt="" /></a>
+									<p style="text-align:center;">Estudiante de Ingeneria en ejecución en informática<br/>
+								        j.gomezr2@alumnos.santotomas.cl
+									</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
+										<span class="date">Noviembre 29, 2022</span>
+										<h2><a href="#">Wladimir Esteban Tapia Collao<br /></a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/avatar_wladimir.png" alt="" /></a>
+									<p style="text-align:center;">Estudiante de Ingeneria en ejecución en informática<br/>wtapia@alumnos.santotomas.cl</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
-					</div>
-			</div>
 
+								<article>
+									<header>
+										<span class="date">Noviembre 29, 2022</span>
+										<h2><a href="#">Docente Marco Vega Rojas<br /></a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/avatar_marco.png" alt="" /></a>
+									<p style="text-align:center;">Docente de Ingeneria en ejecución en informática<br/>mvega27@santotomas.cl</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Noviembre 29, 2022</span>
+										<h2><a href="https://www.santotomas.cl/">Santo Tomás<br /></a></h2>
+									</header>
+									<a href="https://www.santotomas.cl/" class="image fit"><img src="images/avatar_santotomas.jpg" alt="" /></a>
+									<p style="text-align:center;">Instituto Profecional Santo Tomás</p>
+									<ul class="actions special">
+										<li><a href="https://www.santotomas.cl/" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								
+							</section>
+
+							
+					</div>
+					
+			</div>
+			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
